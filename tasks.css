@@ -1,0 +1,60 @@
+/* tasks.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+h1 {
+    color: #512da8;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Add your custom styles for the to-do list interface or other content here */
+/* Add this style in your CSS file */
+.status {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #4caf50; /* Green color for finished tasks */
+}
+
+.completed .status {
+    color: #f44336; /* Red color for unfinished tasks within the completed class */
+}

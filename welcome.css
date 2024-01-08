@@ -1,0 +1,44 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+h1 {
+    color: #512da8;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #512da8;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Add your custom styles for the to-do list interface or other content here */
